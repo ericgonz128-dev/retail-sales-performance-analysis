@@ -1,0 +1,27 @@
+# Local raw data and exports; publish only after a separate review.
+data/
+raw-data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+
+# Power BI working files may contain embedded data.
+*.pbix
+*.pbit
+.pbi/
+
+# Credentials and local files
+.env
+.env.*
+credentials*
+secrets*
+*.log
+~$*
+Thumbs.db
+.DS_Store
